@@ -59,3 +59,35 @@ var no;
 console.log(und, no); // undefined
 
 // const ever; / Null is not accessable with const cause const needs initialization
+
+
+// -- Arrays. Array can store different values of different data types in one variable.
+
+let arr = [12, 'Suleman', false]
+let arr2 = arr // In refernce data types we are not copying arr into arr2 we are giving reference to variable that means if we change something in arr the values of arr2 will also modified
+
+arr2[0] = 10 // this change will be conluded for both arr and arr2
+
+
+// -- Objects. Object can store key value pairs of different data types.
+
+let obj = {
+    fName : 'Muhammad',
+    lName : 'Dawood',
+    age : 19,
+    hobbies : ['Coding', 'Cricket', 'Boxing']
+}
+
+obj.age = 18 // We can access key by var name + .
+console.log(obj);
+
+
+// -- Functions. Function are block of code use to perform a particular task, ones a function is defined we can use it in entire code.
+
+function greeting(name) {
+    console.log(`Hi ${name}! Welcome Javascript Mastery Course.`);
+    
+}
+
+greeting('dawood')
+
