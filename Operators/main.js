@@ -44,3 +44,22 @@ a *= 2 // Taking the previous value of a and multiply with 2 assign save the val
 a /= 4 // Taking the previous value of a and divide with 4 than assign the value to a, 38 / 4 = 9.5
 a %= 2 // Taking the previous value of a and modulo with 2 than assign the value to a, 9.5 % 2 = 1.5
 // So the final value of a will be 1.5
+
+
+// -- Logical Operators (AND, OR, NOT)
+// And. Returns true if both sides are true, if one side is false it returns false.
+
+var a = 12
+var b = 13
+a > 2 && b > 10 // Both sides are true so returns true
+a > 13 && b > 10 // One side is false and other is true so it returns false
+
+// Or. Returns true if only one of two value is true. it only need one true statement to return true
+
+a > 2 || b > 12 // One is true other is false but still return true
+
+// Not. Return the opposite evaluation, means if a condition is true it returns false
+
+!a // a = 12 which is truthy value but is shows false. Like that if you want to know the real evaluation of variable use !!
+
+var c = 12 > 13 // Answer will be false because a is falsy
