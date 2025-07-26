@@ -5,7 +5,6 @@
 // 2- Assignment Operators (=, +=, -=, *=, /=, %= )
 // 4- Logical Operators (&&, !, ||)
 // 5- Ternary Operator (?:)
-// - Urnary Operators
 
 // -- Arithmatic Operators
 
@@ -63,3 +62,9 @@ a > 2 || b > 12 // One is true other is false but still return true
 !a // a = 12 which is truthy value but is shows false. Like that if you want to know the real evaluation of variable use !!
 
 var c = 12 > 13 // Answer will be false because a is falsy
+
+
+// -- Ternary Operator. This operator is shorthand of if else statement
+
+c ? console.log(true) :  console.log(false); // if statement will be true first condition runs if it will be false second condition will be run
+
